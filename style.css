@@ -1,0 +1,44 @@
+body{
+margin: 0px;
+padding: 0px;
+
+}
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 9rem;
+        width: 100%;
+        padding: 0 6rem;
+       
+        z-index: 100;
+
+}
+
+.nav_button{
+      display: flex;
+    align-items: center;
+    list-style: none;
+   font-size: 23px;
+  font-family: 'Poppins', sans-serif;;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  li {
+    float: right;
+  }
+  li a {
+    display: block;
+    margin: 15px;
+  
+  }
+  .first_div{
+    background-color:brown ;
+  }
+
+
